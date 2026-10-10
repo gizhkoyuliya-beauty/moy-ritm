@@ -1,0 +1,224 @@
+{
+  "version": 1,
+  "user": {
+    "name": "Юлия",
+    "photo": "photo.jpg"
+  },
+  "water": {
+    "glassMl": 250,
+    "goalMinMl": 1500,
+    "goalMaxMl": 2000
+  },
+  "intakes": [
+    {
+      "id": "morning",
+      "title": "Утро",
+      "hint": "с завтраком",
+      "icon": "sunrise",
+      "items": [
+        {
+          "id": "multi",
+          "name": "Мультикомплекс"
+        },
+        {
+          "id": "omega",
+          "name": "Омега"
+        },
+        {
+          "id": "mito",
+          "name": "Mito2Max"
+        }
+      ]
+    },
+    {
+      "id": "lunch",
+      "title": "Обед",
+      "hint": "с обедом",
+      "icon": "sun",
+      "items": [
+        {
+          "id": "multi",
+          "name": "Мультикомплекс"
+        },
+        {
+          "id": "alpha",
+          "name": "Alpha CRS+"
+        },
+        {
+          "id": "mito",
+          "name": "Mito2Max"
+        }
+      ]
+    },
+    {
+      "id": "evening",
+      "title": "Вечер",
+      "hint": "с ужином",
+      "icon": "moon",
+      "items": [
+        {
+          "id": "multi",
+          "name": "Мультикомплекс"
+        },
+        {
+          "id": "omega",
+          "name": "Омега"
+        }
+      ]
+    }
+  ],
+  "daily": [
+    {
+      "id": "collagen",
+      "name": "Коллаген",
+      "hint": "1 раз в день, когда удобно",
+      "icon": "spark"
+    }
+  ],
+  "weekly": [
+    {
+      "id": "sport",
+      "name": "Спорт",
+      "icon": "sport",
+      "target": 2
+    },
+    {
+      "id": "face",
+      "name": "Гимнастика лица",
+      "icon": "face",
+      "target": 2
+    },
+    {
+      "id": "massage",
+      "name": "Массаж",
+      "icon": "massage",
+      "target": 1
+    }
+  ],
+  "demo": {
+    "enabled": true,
+    "note": "Примеры прошлых дней, чтобы календарь и серия выглядели живыми. Поставь enabled: false, когда начнёшь пользоваться по-настоящему.",
+    "days": [
+      {
+        "daysAgo": 1,
+        "water": 8,
+        "intakes": {
+          "morning": [
+            "multi",
+            "omega",
+            "mito"
+          ],
+          "lunch": [
+            "multi",
+            "alpha",
+            "mito"
+          ],
+          "evening": [
+            "multi",
+            "omega"
+          ]
+        },
+        "daily": [
+          "collagen"
+        ],
+        "weekly": [
+          "sport"
+        ]
+      },
+      {
+        "daysAgo": 2,
+        "water": 6,
+        "intakes": {
+          "morning": [
+            "multi",
+            "omega",
+            "mito"
+          ],
+          "lunch": [
+            "multi",
+            "alpha",
+            "mito"
+          ],
+          "evening": [
+            "multi",
+            "omega"
+          ]
+        },
+        "daily": [
+          "collagen"
+        ],
+        "weekly": [
+          "face"
+        ]
+      },
+      {
+        "daysAgo": 3,
+        "water": 7,
+        "intakes": {
+          "morning": [
+            "multi",
+            "omega",
+            "mito"
+          ],
+          "lunch": [
+            "multi",
+            "alpha",
+            "mito"
+          ],
+          "evening": [
+            "multi",
+            "omega"
+          ]
+        },
+        "daily": [
+          "collagen"
+        ],
+        "weekly": [
+          "massage"
+        ]
+      },
+      {
+        "daysAgo": 4,
+        "water": 4,
+        "intakes": {
+          "morning": [
+            "multi",
+            "omega",
+            "mito"
+          ],
+          "lunch": [
+            "multi",
+            "mito"
+          ],
+          "evening": []
+        },
+        "daily": [],
+        "weekly": []
+      },
+      {
+        "daysAgo": 5,
+        "water": 8,
+        "intakes": {
+          "morning": [
+            "multi",
+            "omega",
+            "mito"
+          ],
+          "lunch": [
+            "multi",
+            "alpha",
+            "mito"
+          ],
+          "evening": [
+            "multi",
+            "omega"
+          ]
+        },
+        "daily": [
+          "collagen"
+        ],
+        "weekly": []
+      }
+    ]
+  }
+}
